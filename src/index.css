@@ -3,8 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
+  background-color: #1a1a1a;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,7 +14,7 @@
   /* COLORS */
   --clr-blue: #646cff;
   --clr-blue-hover: #535bf2;
-  --clr-dark: #1b1b1b;
+  --clr-dark: #292929;
 }
 
 * {
@@ -35,7 +35,7 @@ a:hover {
 body {
   min-width: 320px;
   width: 100vw;
-  height: 100svh;
+  min-height: 100svh;
 }
 
 h1 {

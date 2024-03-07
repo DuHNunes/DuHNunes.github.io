@@ -1,18 +1,18 @@
 .container {
-  margin: 0 auto;
-  height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   row-gap: 20px;
+
+  height: 100svh;
 }
 
 .avatar {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 6px solid rgba(255 255 255 / 0.7);
+  outline: 6px solid rgba(48 48 48 / 0.8);
 }
 
 .icons-area {
@@ -37,6 +37,6 @@
 }
 
 .icons:hover {
-  outline: 8px solid rgba(27 27 27 / 0.15);
+  box-shadow: 0 0 10px 8px rgba(83 91 242 / 0.25);
   filter: brightness(0.7);
 }
