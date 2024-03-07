@@ -13,6 +13,7 @@
   height: 150px;
   border-radius: 50%;
   outline: 6px solid rgba(48 48 48 / 0.8);
+  object-fit: cover;
 }
 
 .icons-area {
